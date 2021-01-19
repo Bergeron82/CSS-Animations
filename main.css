@@ -1,236 +1,301 @@
-body { background-color:rgb(46, 46, 46);
-    font-family: "Raleway", sans-serif;
+body {
+  background-color: rgb(46, 46, 46);
+  font-family: "Raleway", sans-serif;
 }
 
-header { 
-    height: 12em;
-    width: 90%;
-    margin: 0 auto;
+header {
+  height: 12em;
+  width: 90%;
+  margin: 0 auto;
 }
-h1 { font-size: 3.5em;
-    color: rgb(202, 202, 202);
-    text-align: center;
-    padding: .5em 0;
-    font-weight: 300;
-    border: 10px solid rgb(255, 255, 255);
+h1 {
+  font-size: 3.5em;
+  color: rgb(202, 202, 202);
+  text-align: center;
+  padding: 0.5em 0;
+  font-weight: 300;
+  border: 10px solid rgb(255, 255, 255);
 }
 h2 {
-    font-size: 2em;
-    color: rgb(202, 202, 202);
-    font-family: "Raleway", sans-serif;
-    text-align: center;
-    padding: .3em 0;
-    font-weight: 300;
-    border: 3px solid rgb(255, 255, 255);
+  font-size: 2em;
+  color: rgb(202, 202, 202);
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 0.3em 0;
+  font-weight: 300;
+  border: 3px solid rgb(255, 255, 255);
 }
 
 /* start color changing hover bars animation */
 .head {
-    width: 50%;
-    height: 6.5%;
-    margin: 3em auto 0;
-    border-radius: 8px;
-    background-color: rgb(255, 119, 119);
-    animation-name: header;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    z-index: 1;
-    margin-bottom: 3em;
+  width: 50%;
+  height: 6.5%;
+  margin: 3em auto 0;
+  border-radius: 8px;
+  background-color: rgb(255, 119, 119);
+  animation-name: header;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  margin-bottom: 3em;
 }
 .head:hover {
-    animation-iteration-count: unset;
+  animation-iteration-count: unset;
 }
 @keyframes header {
-    0% {background-color: rgb(123, 228, 210);}
-    25% {background-color: rgb(190, 190, 190);}
-    50% {background-color: lightblue;}
-    100% {background-color: rgb(255, 255, 137);}
-    75% {background-color: rgb(173, 255, 255);}
+  0% {
+    background-color: rgb(123, 228, 210);
+  }
+  25% {
+    background-color: rgb(190, 190, 190);
+  }
+  50% {
+    background-color: lightblue;
+  }
+  100% {
+    background-color: rgb(255, 255, 137);
+  }
+  75% {
+    background-color: rgb(173, 255, 255);
+  }
 }
 
 .head2 {
-    width: 50%;
-    height: 6.5%;
-    margin: -2.5em auto 0;
-    border-radius: 8px;
-    background-color: rgb(255, 119, 119);
-    animation-name: head2;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    z-index: 2;
+  width: 50%;
+  height: 6.5%;
+  margin: -2.5em auto 0;
+  border-radius: 8px;
+  background-color: rgb(255, 119, 119);
+  animation-name: head2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  z-index: 2;
 }
 .head2:hover {
-    animation-iteration-count: unset;
+  animation-iteration-count: unset;
 }
 
 @keyframes head2 {
-    0% {background-color: rgb(158, 255, 255);}
-    25% {background-color: lightblue;}
-    50% {background-color: rgb(255, 255, 148);}
-    100% {background-color: rgb(203, 255, 255);}
-    75% {background-color: rgb(255, 175, 101);}
+  0% {
+    background-color: rgb(158, 255, 255);
+  }
+  25% {
+    background-color: lightblue;
+  }
+  50% {
+    background-color: rgb(255, 255, 148);
+  }
+  100% {
+    background-color: rgb(203, 255, 255);
+  }
+  75% {
+    background-color: rgb(255, 175, 101);
+  }
 }
 .head3 {
-    width: 50%;
-    height: 6.5%;
-    margin: .5em auto 0;
-    border-radius: 8px;
-    background-color: rgb(255, 119, 119);
-    animation-name: head3;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    z-index: 2;
+  width: 50%;
+  height: 6.5%;
+  margin: 0.5em auto 0;
+  border-radius: 8px;
+  background-color: rgb(255, 119, 119);
+  animation-name: head3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  z-index: 2;
 }
 .head3:hover {
-    animation-iteration-count: unset;
+  animation-iteration-count: unset;
 }
 @keyframes head3 {
-    0% {background-color: rgb(190, 190, 190);}
-    25% {background-color: rgb(138, 226, 255);}
-    50% {background-color: rgb(238, 238, 189);}
-    100% {background-color: rgb(108, 255, 255);}
-    75% {background-color: rgb(255, 144, 144);}
+  0% {
+    background-color: rgb(190, 190, 190);
+  }
+  25% {
+    background-color: rgb(138, 226, 255);
+  }
+  50% {
+    background-color: rgb(238, 238, 189);
+  }
+  100% {
+    background-color: rgb(108, 255, 255);
+  }
+  75% {
+    background-color: rgb(255, 144, 144);
+  }
 }
 .head4 {
-    width: 50%;
-    height: 6.5%;
-    margin: .5em auto 0;
-    border-radius: 8px;
-    background-color: #ff7777;
-    animation-name: head4;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    z-index: 2;
+  width: 50%;
+  height: 6.5%;
+  margin: 0.5em auto 0;
+  border-radius: 8px;
+  background-color: #ff7777;
+  animation-name: head4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  z-index: 2;
 }
 .head4:hover {
-    animation-iteration-count: unset;
+  animation-iteration-count: unset;
 }
 
 @keyframes head4 {
-    0% {background-color: rgb(80, 255, 255);}
-    25% {background-color: rgb(65, 208, 255);}
-    50% {background-color: rgb(208, 255, 147);}
-    100% {background-color: rgb(203, 255, 255);}
-    75% {background-color: rgb(255, 222, 152);}
+  0% {
+    background-color: rgb(80, 255, 255);
+  }
+  25% {
+    background-color: rgb(65, 208, 255);
+  }
+  50% {
+    background-color: rgb(208, 255, 147);
+  }
+  100% {
+    background-color: rgb(203, 255, 255);
+  }
+  75% {
+    background-color: rgb(255, 222, 152);
+  }
 }
 .head5 {
-    width: 50%;
-    height: 6.5%;
-    margin: .5em auto 0;
-    border-radius: 8px;
-    background-color: rgb(255, 119, 119);
-    animation-name: head5;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    z-index: 1;
-    margin-bottom: 3em;
+  width: 50%;
+  height: 6.5%;
+  margin: 0.5em auto 0;
+  border-radius: 8px;
+  background-color: rgb(255, 119, 119);
+  animation-name: head5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  margin-bottom: 3em;
 }
 .head5:hover {
-    animation-iteration-count: unset;
+  animation-iteration-count: unset;
 }
 @keyframes head5 {
-    0% {background-color: rgb(255, 255, 138);}
-    25% {background-color: rgb(190, 190, 190);}
-    50% {background-color: rgb(190, 255, 255);}
-    100% {background-color: rgb(49, 255, 221);}
-    75% {background-color: rgb(88, 160, 255);}
+  0% {
+    background-color: rgb(255, 255, 138);
+  }
+  25% {
+    background-color: rgb(190, 190, 190);
+  }
+  50% {
+    background-color: rgb(190, 255, 255);
+  }
+  100% {
+    background-color: rgb(49, 255, 221);
+  }
+  75% {
+    background-color: rgb(88, 160, 255);
+  }
 }
 
 /* end color changing hover bars animation */
 
 .ball1 {
-    width: 90%;
-    margin: 7.5em auto 1em;
+  width: 90%;
+  margin: 7.5em auto 1em;
 }
 /* start catch the ball animation */
 .three {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: relative;
-    background-color: #ff7777;
-    animation: examplethree 4s ease-in-out infinite alternate;
-    margin-top: 4em;
-    margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #ff7777;
+  animation: examplethree 4s ease-in-out infinite alternate;
+  margin-top: 4em;
+  margin: 0 auto;
 }
 .three:hover {
-    animation-iteration-count: unset;
-    height: 140px;
-    width: 140px;
-    border: 3px solid white;
-    box-shadow: 5px 5px rgb(156, 156, 156);
-    cursor: pointer;
-    background-color: white;
+  animation-iteration-count: unset;
+  height: 140px;
+  width: 140px;
+  border: 3px solid white;
+  box-shadow: 5px 5px rgb(156, 156, 156);
+  cursor: pointer;
+  background-color: white;
 }
 @keyframes examplethree {
-    0% {background-color: gray;
-        left: 0;
-        top: 0;
-    }
-    25% {background-color: #fff;
-        left: 400px;
-        top: 0px;
-    }
-    50% {background-color: orange;
-        left: -200px;
-        top: 300px;
-    }
-    75% {background-color: azure;
-        left: 300px;
-        top: 200px;
-    }
-    100% {background-color: rgb(154, 205, 50);
-        left:-400px;
-        top:0;
-    }
+  0% {
+    background-color: gray;
+    left: 0;
+    top: 0;
+  }
+  25% {
+    background-color: #fff;
+    left: 400px;
+    top: 0px;
+  }
+  50% {
+    background-color: orange;
+    left: -200px;
+    top: 300px;
+  }
+  75% {
+    background-color: azure;
+    left: 300px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgb(154, 205, 50);
+    left: -400px;
+    top: 0;
+  }
 }
 /* end catch the ball animation */
 
 .bounce {
-    width: 90%;
-    margin: 30% auto 1em;
+  width: 90%;
+  margin: 30% auto 1em;
 }
 .box {
-    width: 200px;
-    padding-top: 100%;
-    position: relative;
-    margin: 0 auto;
+  width: 200px;
+  padding-top: 100%;
+  position: relative;
+  margin: 0 auto;
 }
 /* start bouncing planet animation */
-.bouncer { 
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    display: block;
+.bouncer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
 }
 svg:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 #bounce2 {
-    animation: bounce 1.5s ease infinite;
+  animation: bounce 1.5s ease infinite;
 }
 #bounce3 {
-    animation: bounce 1.5s ease infinite;
+  animation: bounce 1.5s ease infinite;
 }
 #bounce2:hover {
-    fill: #d5ff86;
+  fill: #d5ff86;
 }
 #bounce3:hover {
-    stroke: rgb(79, 155, 255);
+  stroke: rgb(79, 155, 255);
 }
 @keyframes bounce {
-    0% {transform: scale(1) translateY(0px);}
-    30% {transform: scale(1.2, .7) translateY(450px)}
-    50% {transform: scale(1) translateY(0px);}
-    100% {transform: translateY(0px);}
+  0% {
+    transform: scale(1) translateY(0px);
+  }
+  30% {
+    transform: scale(1.2, 0.7) translateY(450px);
+  }
+  50% {
+    transform: scale(1) translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 /* end bouncing planet animation */
 
 .spinner {
-    width: 90%;
-    margin: -20em auto 0;
+  width: 90%;
+  margin: -20em auto 0;
 }
 
 /* begin spinner animation. For the fourth animation I am 
@@ -239,111 +304,115 @@ is copied several times in the HTML into seperate div containers,
 which are then transformed via scale, rotate, and translateY
 using keyframes. */
 .loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 500px;
-    margin-top: 120%;
-    margin-left: -200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: 120%;
+  margin-left: -200px;
 }
 .blob {
-    position: absolute;
-    left: 180px;
-    top: 180px;
-    width: 100px;
-    height: 100px;
-    -webkit-transform: translateY(-100px);
-        transform: translateY(-100px);
-        filter: blur(.5px);
+  position: absolute;
+  left: 180px;
+  top: 180px;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  filter: blur(0.5px);
+}
+.blob #circles:hover {
+  fill: rgb(68, 255, 168);
 }
 .blob:nth-child(1) {
-    -webkit-animation: spin 2.5s infinite ease-in-out;
-        animation: spin 2.5s infinite ease-in-out;
-    -webkit-animation-delay: 0.1s;
-        animation-delay: 0.1s;
-        z-index: 10;
-           
+  -webkit-animation: spin 2.5s infinite ease-in-out;
+  animation: spin 2.5s infinite ease-in-out;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  z-index: 10;
 }
 .blob:nth-child(2) {
-    -webkit-animation: spin 2.5s infinite ease-in-out;
-        animation: spin 2.5s infinite ease-in-out;
-    -webkit-animation-delay: 0.2s;
-        animation-delay: 0.2s;
+  -webkit-animation: spin 2.5s infinite ease-in-out;
+  animation: spin 2.5s infinite ease-in-out;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 .blob:nth-child(3) {
-    -webkit-animation: spin 2.5s infinite ease-in-out;
-        animation: spin 2.5s infinite ease-in-out;
-    -webkit-animation-delay: 0.3s;
-        animation-delay: 0.3s;
+  -webkit-animation: spin 2.5s infinite ease-in-out;
+  animation: spin 2.5s infinite ease-in-out;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 .blob:nth-child(4) {
-    -webkit-animation: spin 2.5s infinite ease-in-out;
-        animation: spin 2.5s infinite ease-in-out;
-    -webkit-animation-delay: 0.4s;
-        animation-delay: 0.4s;
+  -webkit-animation: spin 2.5s infinite ease-in-out;
+  animation: spin 2.5s infinite ease-in-out;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 .blob:nth-child(5) {
-    -webkit-animation: spin 2.5s infinite ease-in-out;
-        animation: spin 2.5s infinite ease-in-out;
-    -webkit-animation-delay: 0.5s;
-        animation-delay: 0.5s;
+  -webkit-animation: spin 2.5s infinite ease-in-out;
+  animation: spin 2.5s infinite ease-in-out;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 .blob:nth-child(6) {
-    -webkit-animation: spin 2.5s infinite ease-in-out;
-        animation: spin 2.5s infinite ease-in-out;
-    -webkit-animation-delay: 0.6s;
-        animation-delay: 0.6s;
+  -webkit-animation: spin 2.5s infinite ease-in-out;
+  animation: spin 2.5s infinite ease-in-out;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 .blob:nth-child(7) {
-    -webkit-animation: spin 2.5s infinite ease-in-out;
-        animation: spin 2.5s infinite ease-in-out;
-    -webkit-animation-delay: 0.7s;
-        animation-delay: 0.7s;
+  -webkit-animation: spin 2.5s infinite ease-in-out;
+  animation: spin 2.5s infinite ease-in-out;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
 }
-  
+
 @-webkit-keyframes spin {
-    0% {
-      -webkit-transform: rotate(0deg) translateY(-100px) rotate(0deg) scale(1);
-              transform: rotate(0deg) translateY(-100px) rotate(0deg) scale(1);
-    }
-    70% {
-      -webkit-transform: rotate(360deg) translateY(-100px) rotate(-360deg) scale(.3);
-              transform: rotate(360deg) translateY(-100px) rotate(-360deg) scale(.3);
-    }
+  0% {
+    -webkit-transform: rotate(0deg) translateY(-100px) rotate(0deg) scale(1);
+    transform: rotate(0deg) translateY(-100px) rotate(0deg) scale(1);
+  }
+  70% {
+    -webkit-transform: rotate(360deg) translateY(-100px) rotate(-360deg)
+      scale(0.3);
+    transform: rotate(360deg) translateY(-100px) rotate(-360deg) scale(0.3);
+  }
 }
-  
+
 @keyframes spin {
-    0% {
-      -webkit-transform: rotate(0deg) translateY(-100px) rotate(0deg) scale(1);
-              transform: rotate(0deg) translateY(-100px) rotate(0deg) scale(1);
-    }
-    70% {
-      -webkit-transform: rotate(360deg) translateY(-100px) rotate(-360deg) scale(.3);
-              transform: rotate(360deg) translateY(-100px) rotate(-360deg) scale(.3);
-    }
+  0% {
+    -webkit-transform: rotate(0deg) translateY(-100px) rotate(0deg) scale(1);
+    transform: rotate(0deg) translateY(-100px) rotate(0deg) scale(1);
+  }
+  70% {
+    -webkit-transform: rotate(360deg) translateY(-100px) rotate(-360deg)
+      scale(0.3);
+    transform: rotate(360deg) translateY(-100px) rotate(-360deg) scale(0.3);
+  }
 }
 footer {
-    width: 90%;
-    border: 10px solid rgb(202, 202, 202);
-    color: rgb(202, 202, 202);
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 45em;
+  width: 90%;
+  border: 10px solid rgb(202, 202, 202);
+  color: rgb(202, 202, 202);
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 45em;
 }
 @media only screen and (min-width: 1000px) {
-    .loader{
-        margin-top: 120%;
-    } 
+  .loader {
+    margin-top: 120%;
+  }
 }
 @media only screen and (max-width: 1000px) {
-    .loader{
-        margin-top: 140%;
-    } 
+  .loader {
+    margin-top: 140%;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .loader{
-        margin-top: 155%;
-    } 
+  .loader {
+    margin-top: 155%;
+  }
 }
